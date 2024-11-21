@@ -28,7 +28,7 @@ app.add_middleware(
 )
 # MongoDB client setup
 client = AsyncIOMotorClient(
-    "mongodb+srv://akki712:akki@awsinstances.2sixhn0.mongodb.net/?retryWrites=true&w=majority&appName=awsinstances")
+    "mongodb+srv://saimani21:4410@awsinstances.2sixhn0.mongodb.net/?retryWrites=true&w=majority&appName=awsinstances")
 db = client.university
 
 # Enable CORS for frontend communication
